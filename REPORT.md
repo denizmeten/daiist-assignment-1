@@ -4,9 +4,9 @@
 defend any of this without your code in front of you — write only what you
 can actually explain.*
 
-- **Name**:
-- **Student ID**:
-- **Email**:
+- **Name**: Deniz Meten
+- **Student ID**: 18758
+- **Email**: dmeten.ieu2022@student.ie.edu
 - **Group**: [BBADBA 5A | BBADBA 5B | PPLEDBA 5A | BDBA 3A]
 
 ## Dataset
