@@ -27,7 +27,7 @@ The project also uses:
 
 The training pipeline keeps the 20,000 most recent valid matches from the committed match file. A match is treated as valid when each team contains exactly five heroes, all ten picks are unique, and every hero ID exists in the metadata.
 
-I chose Dota 2 dataset because I play it from time to time. A lot of poeple on the game make a strong emphasis on the draft, however from my experience draft does not necesarilly you outright lost, or won a game. Draft however does somewhat dictate how easy or hard a game is going to be. By creating a model to predict an outcome of a match I want to see for myself how does it actually affect you win percentage in a game.
+I chose Dota 2 dataset because I play it from time to time. A lot of people on the game make a strong emphasis on the draft, however from my experience draft does not necesarilly you outright lost, or won a game. Draft however does somewhat dictate how easy or hard a game is going to be. By creating a model to predict an outcome of a match I want to see for myself how does it actually affect you win percentage in a game.
 
 ## Business / real-life framing
 
