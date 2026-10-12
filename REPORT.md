@@ -23,7 +23,7 @@ The project also uses:
 
 The training pipeline keeps the 20,000 most recent valid matches from the committed match file. A match is treated as valid when each team contains exactly five heroes, all ten picks are unique, and every hero ID exists in the metadata.
 
-I chose Dota 2 dataset because I play it from time to time. A lot of people on the game make a strong emphasis on the draft, however from my experience draft does not necesarilly you outright lost, or won a game. Draft however does somewhat dictate how easy or hard a game is going to be. By creating a model to predict an outcome of a match I want to see for myself how does it actually affect you win percentage in a game.
+I chose Dota 2 dataset because I play it from time to time. A lot of people on the game make a strong emphasis on the draft, however from my experience draft does not necessarily you outright lost, or won a game. Draft however does somewhat dictate how easy or hard a game is going to be. By creating a model to predict an outcome of a match I want to see for myself how does it actually affect you win percentage in a game.
 
 ## Business / real-life framing
 
@@ -46,7 +46,7 @@ For threshold analysis in the dashboard, the cost is:
 
 so every incorrect draft call costs one unit.
 
-A time ordered-split was used because it is the closest reflection to the most recent balance patch in the game. By mixing older games it will not provide accurate data, since throughout patches heros and items get either their numbers decreased or increased. There are also at times changes such as terrain changes, so by filtering the most recent matches we can avoid balance and map changes as much as possible.
+A time ordered-split was used because it is the closest reflection to the most recent balance patch in the game. By mixing older games it will not provide accurate data, since throughout patches heroes and items get either their numbers decreased or increased. There are also at times changes such as terrain changes, so by filtering the most recent matches we can avoid balance and map changes as much as possible.
 
 The treatment of false positives and false negatives is the same because the outcome for each match is binary its either a loss or a win, so if the model predicts the win or loss wrongly, then it has the same exact weight.
 
@@ -73,7 +73,7 @@ The feature matrix is standardized using `StandardScaler`. The scaler is fitted 
 
 Hero picks matter because each and every hero has their own strengths and weaknesses. As an example, Anti-Mage is a strong character only in the later stages of the game, hence picking up strong early to mid game characters that provide a lot of CC (crowd control), such as Lion will be beneficial since it will allow the Anti-Mage character to get to their power spike. Hence why despite individual strengths, a good team composition is important.
 
-A big feature that is failed to be captured by the dataset is the usefulness of a hero with the amount of gold they have. This is important because if a whole team has heros that all require a lot of gold to be uselful, an example of such a team composition would be Terrorblade, Anti-Mage, Juggernaut, Phantom Assassin and Lifestealer, then it will be difficult for that team to win since they would be starving each other of resources on the map. They also do not cover each other for their kit weaknesses since they have similar roles.
+A big feature that is failed to be captured by the dataset is the usefulness of a hero with the amount of gold they have. This is important because if a whole team has heros that all require a lot of gold to be useful, an example of such a team composition would be Terrorblade, Anti-Mage, Juggernaut, Phantom Assassin and Lifestealer, then it will be difficult for that team to win since they would be starving each other of resources on the map. They also do not cover each other for their kit weaknesses since they have similar roles.
 
 ## Modeling: three implementations, one model
 
