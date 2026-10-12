@@ -73,7 +73,7 @@ The feature matrix is standardized using `StandardScaler`. The scaler is fitted 
 
 Hero picks matter because each and every hero has their own strengths and weaknesses. As an example, Anti-Mage is a strong character only in the later stages of the game, hence picking up strong early to mid game characters that provide a lot of CC (crowd control), such as Lion will be beneficial since it will allow the Anti-Mage character to get to their power spike. Hence why despite individual strengths, a good team composition is important.
 
-A big feature that is failed to be captured by the dataset is the usefulness of a hero with the amount of gold they have. This is important because if a whole team has heros that all require a lot of gold to be useful, an example of such a team composition would be Terrorblade, Anti-Mage, Juggernaut, Phantom Assassin and Lifestealer, then it will be difficult for that team to win since they would be starving each other of resources on the map. They also do not cover each other for their kit weaknesses since they have similar roles.
+A big feature that is failed to be captured by the dataset is the usefulness of a hero with the amount of gold they have. This is important because if a whole team has heroes that all require a lot of gold to be useful, an example of such a team composition would be Terrorblade, Anti-Mage, Juggernaut, Phantom Assassin and Lifestealer, then it will be difficult for that team to win since they would be starving each other of resources on the map. They also do not cover each other for their kit weaknesses since they have similar roles.
 
 ## Modeling: three implementations, one model
 
