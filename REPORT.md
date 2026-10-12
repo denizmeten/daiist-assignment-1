@@ -7,7 +7,7 @@ can actually explain.*
 - **Name**: Deniz Meten
 - **Student ID**: 18758
 - **Email**: dmeten.ieu2022@student.ie.edu
-- **Group**: [BBADBA 5A | BBADBA 5B | PPLEDBA 5A | BDBA 3A]
+- **Group**: [BBADBA 5A]
 
 ## Dataset
 
