@@ -87,12 +87,6 @@ The same feature matrix and the same train/validation/test split are used for al
 
 A naive baseline uses the Radiant win rate from the training set as a constant probability.
 
-After running:
-
-`uv run python main.py train`
-
-copy the exact results from `artifacts/model_comparison.csv` below:
-
 | Model | Accuracy | Log loss | ROC-AUC |
 | --- | --- | --- | --- |
 | Naive baseline | 0.5693 | 0.6857 | 0.5000 |
