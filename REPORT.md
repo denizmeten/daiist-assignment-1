@@ -42,4 +42,4 @@ more time or data — not generic hedging.*
 
 ## Generative AI use disclosure
 
-*Per the syllabus AI Policy: what you used and how, or "no AI content used."*
+I used ChatGPT to help with coding boilerplate, debugging, code organization, and formatting. I reviewed the implementation and made sure I could explain the business framing, feature choices, model setup, and limitations myself.
